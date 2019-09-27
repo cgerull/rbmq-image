@@ -1,7 +1,6 @@
 import base64
 import sys
 
-password = "AdminP@ssw0rd"
 
 def encode(string):
     # URL and Filename Safe Base64 Encoding
