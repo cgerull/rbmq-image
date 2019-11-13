@@ -19,6 +19,7 @@ sudo docker build -t rbmq:<tag> .
 
 ## Run
 
+
 Run standalone and connect via the exposed host port or add to a 
 docker-compose file and run in a suite of test programs.
 
