@@ -1,4 +1,4 @@
-FROM rabbitmq:3.7.18-management
+FROM rabbitmq:3.8.1-management
 
 # Add sysctlstyle configuration file
 ADD rabbitmq.conf /etc/rabbitmq/
