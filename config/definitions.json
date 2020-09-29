@@ -1,0 +1,30 @@
+{
+  "rabbit_version": "3.8.9",
+  "vhosts": [
+    {
+      "name": "LOCAL"
+    },
+    {
+      "name": "DEV"
+    }
+  ],
+  "users": [
+    {
+      "name": "rbmq_user",
+      "password_hash": "XEIUeZzCKDudHPQL2gmHPNPV3Sx1XB7N9QL3dztPC6NqmpdA",
+      "hashing_algorithm": "rabbit_password_hashing_sha256",
+      "tags": "administrator"
+    }
+  ],
+  "permissions": [
+    {
+      "user": "rbmq_user",
+      "vhost": "LOCAL",
+      "configure": ".*",
+      "write": ".*",
+      "read": ".*"
+    }
+  ]
+}
+
+
