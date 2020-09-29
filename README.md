@@ -17,6 +17,17 @@ Add and / or change the predifined user in rabbitmq.conf as fit.
 sudo docker build -t rbmq:<tag> .
 ```
 
+## Environment variables
+
+```bash
+RABBITMQ_MANAGEMENT_SSL_CACERTFILE
+RABBITMQ_MANAGEMENT_SSL_CERTFILE
+RABBITMQ_MANAGEMENT_SSL_DEPTH
+RABBITMQ_MANAGEMENT_SSL_FAIL_IF_NO_PEER_CERT
+RABBITMQ_MANAGEMENT_SSL_KEYFILE
+RABBITMQ_MANAGEMENT_SSL_VERIFY
+```
+
 ## Run
 
 
