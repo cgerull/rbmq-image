@@ -1,5 +1,5 @@
 
-FROM rabbitmq:3.8.9-management
+FROM rabbitmq:3.9.29-management-alpine
 
 # Add sysctlstyle configuration file
 # ADD rabbitmq.conf /etc/rabbitmq/
