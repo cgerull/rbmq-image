@@ -1,11 +1,11 @@
 {
-  "rabbit_version": "3.8.9",
+  "rabbit_version": "3.9.29",
   "vhosts": [
     {
-      "name": "LOCAL"
+      "name": "local"
     },
     {
-      "name": "DEV"
+      "name": "dev"
     }
   ],
   "users": [
@@ -19,7 +19,7 @@
   "permissions": [
     {
       "user": "rbmq_user",
-      "vhost": "LOCAL",
+      "vhost": "local",
       "configure": ".*",
       "write": ".*",
       "read": ".*"
