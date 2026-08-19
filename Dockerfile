@@ -1,4 +1,6 @@
-
+# Try hardened image
+# First test if the management interface still works.
+# FROM dhi.io/rabbitmq:4
 FROM rabbitmq:3.9.29-management-alpine
 
 # Add sysctlstyle configuration file
